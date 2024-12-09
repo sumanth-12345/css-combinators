@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>combinator</title>
+        <link rel="stylesheet" href="./style.css">
+    </head>
+    <body>
+        <h1>child selector (&gt;)</h1>
+            <!-- In the following example, what will be selected by the CSS rule, and how will the styling be applied? -->
+        <div class="container">   
+            <p>This is a paragraph inside a div.</p>
+            <p>paragraph 1 in div</p>
+            <span>
+                <p>paragraph 2 in div</p>
+            </span>
+            </div>
+            <h2> Descendant Combinator (space)</h2>
+            <!-- Given the following HTML and CSS, which elements will be selected and what will be the result? -->
+            
+                <div class="item">
+                    <p>Paragraph 1 in the div.</p>
+                    <p>Paragraph 2 in the div.</p>
+                    <section><p>Paragraph 3 in the div.</p></section>
+                  </div>
+            <h2>Adjacent Sibling Combinator (+)</h2>
+           <!-- What will happen to the second paragraph in this HTML structure, and why? -->
+           <h4>Title</h4>
+             <p>This paragraph will be normal.</p>
+            <p>This paragraph will be bold.</p>
+
+            <h1>General Sibling Combinator (~)</h1>
+            <!-- In the following code, how does the general sibling combinator (~) work? -->
+            <h2>Heading</h2>
+            <p>First paragraph.</p>
+            <p>Second paragraph.</p>
+            <p>Third paragraph.</p>
+       <h4>Combining Multiple Combinators</h4>
+       <!-- Given the following HTML and CSS, which elements are selected and how are they styled? -->
+       <div class="outer">
+        <div class="inner">
+            <p>Paragraph 1</p>
+        </div>
+        <p>Paragraph 2</p>
+    </div>
+    
+    </body>
+</html>
